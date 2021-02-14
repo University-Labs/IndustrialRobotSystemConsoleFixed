@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/evster-coder/IndustrialRobotSystemConsoleFixed.svg?branch=main)](https://travis-ci.org/bast/gtest-demo/builds)
-[![License](https://img.shields.io/github/license/evster-coder/IndustrialRobotSystemConsoleFixed)]
+![Build Status](https://travis-ci.org/evster-coder/IndustrialRobotSystemConsoleFixed.svg?branch=main)
+![License](https://img.shields.io/github/license/evster-coder/IndustrialRobotSystemConsoleFixed)
 
 
 # IndustrialRobotSystem Console Fixed version
