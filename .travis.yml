@@ -19,7 +19,7 @@ script:
   - cd build
   - cmake ..
   - cmake --build .
-  - ctest
+  - ctest . -C Debug
 
 after_success:
   - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
