@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-%20BSD--3-blue.svg)](../master/LICENSE)
 
 
-# gtest-demo
+# IndustrialRobotSystem Console Fixed version
 
 C/C++ unit test demo using [Google Test](https://code.google.com/p/googletest) deployed to
 [Travis-CI](https://travis-ci.org/bast/gtest-demo/builds) with test coverage
