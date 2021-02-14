@@ -3,8 +3,6 @@ sudo: false
 language:
   - cpp
 
-compiler:
-  - msvc
 
 addons:
   apt:
@@ -13,6 +11,11 @@ addons:
 
 before_install:
   - pip install --user cpp-coveralls
+  
+install:
+  - choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
+  - choco install dotnetcore-sdk
+  - dotnet restore
 
 script:
   - mkdir build
