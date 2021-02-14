@@ -5,16 +5,7 @@
 
 # IndustrialRobotSystem Console Fixed version
 
-C/C++ unit test demo using [Google Test](https://code.google.com/p/googletest) deployed to
-[Travis-CI](https://travis-ci.org/bast/gtest-demo/builds) with test coverage
-deployed to [Coveralls](https://coveralls.io/r/bast/gtest-demo).
-
-- [Build and test history](https://travis-ci.org/bast/gtest-demo/builds)
-- [Code coverage](https://coveralls.io/r/bast/gtest-demo)
-- Licensed under [BSD-3](../master/LICENSE)
-
-This demo uses the approach presented by Craig Scott in https://crascit.com/2015/07/25/cmake-gtest/.
-
+It includes the source code of system for imitation Industrial Robot Manage framework (c++)
 
 ## How to build this demo
 
