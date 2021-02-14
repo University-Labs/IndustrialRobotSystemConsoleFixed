@@ -17,4 +17,6 @@ public:
 
     //возвращает наименование типа устройства
     virtual string getEUnitType();
+
+	virtual bool isDeviceActive();
 };

@@ -3,7 +3,6 @@ add_library(robotsystem "")
 target_sources(
     robotsystem
     PRIVATE
-        example.cpp
         ActivateExecutiveUnit.cpp
         ControlSystem.cpp
         DeactivateExecutiveUnit.cpp
@@ -28,7 +27,6 @@ target_sources(
 
 
     PUBLIC
-        ${CMAKE_CURRENT_LIST_DIR}/example.h
         ${CMAKE_CURRENT_LIST_DIR}/ActivateExecutiveUnit.h
         ${CMAKE_CURRENT_LIST_DIR}/ControlSystem.h
         ${CMAKE_CURRENT_LIST_DIR}/DeactivateExecutiveUnit.h

@@ -117,4 +117,6 @@ public:
     //выдача информации о роботе
     virtual vector<string> getRobotInfo();
 
+	int getAmountCommands();
+
 };

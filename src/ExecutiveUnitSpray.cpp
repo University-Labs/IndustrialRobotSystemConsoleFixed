@@ -57,3 +57,8 @@ string ExecutiveUnitSpray::getEUnitType()
 {
     return "Executive Unit Spray";
 }
+
+bool ExecutiveUnitSpray::isDeviceActive()
+{
+	return isActive;
+}

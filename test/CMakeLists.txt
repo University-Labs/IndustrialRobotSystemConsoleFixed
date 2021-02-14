@@ -1,7 +1,9 @@
 add_executable(
     unit_tests
-    example_add.cpp
-    example_subtract.cpp
+    TestMovingUnit.cpp
+    TestExecutiveUnitHand.cpp
+    TestExecutiveUnitSpray.cpp
+    TestRobot.cpp
     )
 
 target_link_libraries(

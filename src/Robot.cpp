@@ -257,3 +257,8 @@ double* Robot::getCurrentPos()
     position[2] = movingDevice->getPositionZ();
     return position;
 }
+
+int Robot::getAmountCommands()
+{
+    return commands.size();
+}

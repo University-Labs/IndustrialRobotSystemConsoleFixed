@@ -93,3 +93,9 @@ string ExecutiveUnitHand::getEUnitType()
 {
     return "Executive Unit Hand";
 }
+
+
+bool ExecutiveUnitHand::isDeviceActive()
+{
+    return isActive;
+}

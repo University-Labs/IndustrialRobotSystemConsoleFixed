@@ -18,6 +18,8 @@ protected:
 	ISensorUnit* sensor;
 public:
 
+	virtual bool isDeviceActive() = 0;
+
     virtual ~ExecutiveUnit(){}
 
 	//Начать работу исполнительного органа с заданной интенсивностью
