@@ -1,6 +1,5 @@
 #include "MovingUnit.h"
 #include <cmath>
-#include <windows.h>
 #include <iostream>
 
 using namespace std;
@@ -115,7 +114,7 @@ string* MovingUnit::moveDevice(double x, double y, double z, double speed)
 			positionY += moveY;
 			positionZ += moveZ;
 
-            Sleep(10);
+            //Sleep(10);
         }
 
 		//присваиваем конечные координаты точки
