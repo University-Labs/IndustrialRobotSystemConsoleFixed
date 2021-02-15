@@ -29,7 +29,7 @@ script:
 
 after_success:
   - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
-  - coveralls --exclude googletest
+  - coveralls --exclude lib
 
 notifications:
   email: false
