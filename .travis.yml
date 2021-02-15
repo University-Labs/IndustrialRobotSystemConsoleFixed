@@ -28,7 +28,7 @@ script:
   - ctest
 
 after_success:
-  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E  ".*lib/.*.cpp.*"
+  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E  ".*lib/*.h"
 
 notifications:
   email: false
