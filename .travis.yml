@@ -1,4 +1,4 @@
-sudo: true
+sudo: false
 
 language:
   - cpp
@@ -25,10 +25,10 @@ script:
   - cd build
   - cmake ..
   - cmake --build .
-  - ctest .
+  - ctest
 
 after_success:
-  - coveralls --root ..
+  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
 
 notifications:
   email: false
