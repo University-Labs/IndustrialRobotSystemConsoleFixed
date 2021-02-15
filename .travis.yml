@@ -28,7 +28,7 @@ script:
   - ctest
 
 after_success:
-  - coveralls -root
+  - coveralls --root ..
 
 notifications:
   email: false
