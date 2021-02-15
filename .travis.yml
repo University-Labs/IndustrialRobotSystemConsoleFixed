@@ -27,8 +27,6 @@ script:
   - cmake --build .
   - ctest .
 
-after_success:
-  - coveralls --root .. -E "src/*.cpp" -E "test/*.cpp"
 
 notifications:
   email: false
