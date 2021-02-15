@@ -3,9 +3,6 @@ sudo: false
 language:
   - cpp
 
-compilers:
-  - clang
-
 addons:
   apt:
     sources:
@@ -20,7 +17,6 @@ script:
   - mkdir build
   - cd build
   - cmake ..
-  - ./configure --enable-gcovs
   - cmake --build .
   - ctest .
 
