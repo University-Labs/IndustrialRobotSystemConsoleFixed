@@ -1,7 +1,6 @@
 [![Build Status](https://www.travis-ci.com/evster-coder/IndustrialRobotSystemConsoleFixed.svg?branch=main)](https://www.travis-ci.com/github/evster-coder/IndustrialRobotSystemConsoleFixed)
 ![License](https://img.shields.io/github/license/evster-coder/IndustrialRobotSystemConsoleFixed)
-[![Coverage Status](https://coveralls.io/repos/github/evster-coder/IndustrialRobotSystemConsoleFixed/badge.svg?branch=main)](https://coveralls.io/github/evster-coder/IndustrialRobotSystemConsoleFixed?branch=main)
-
+[![Coverage Status](https://coveralls.io/repos/github/evster-coder/IndustrialRobotSystemConsoleFixed/badge.svg)](https://coveralls.io/github/evster-coder/IndustrialRobotSystemConsoleFixed)
 
 # IndustrialRobotSystem Console Fixed version
 
