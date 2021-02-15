@@ -20,12 +20,12 @@ script:
   - mkdir build
   - cd build
   - cmake ..
+  - ./configure --enable-gcovs
   - cmake --build .
   - ctest .
 
 after_success:
   - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
-  - bash <(curl -s https://codecov.io/bash)
 
 
 notifications:
