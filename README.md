@@ -6,7 +6,6 @@
 # IndustrialRobotSystem Console Fixed version
 
 It includes the source code of system for imitation Industrial Robot Manage framework (c++)
-[![Coverage Status](https://coveralls.io/repos/bast/gtest-demo/badge.png?branch=master)](https://coveralls.io/r/bast/gtest-demo?branch=master)
 
 ## How to build this demo
 
