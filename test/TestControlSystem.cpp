@@ -79,7 +79,7 @@ TEST(ControlSystem, executeOnebyoneSuccess)
 
     //assert
     ASSERT_EQ(res, nullptr);
-    ASSERT_NE(sys.getRobot("1")->isCommandsEmpty(), true);
+    ASSERT_EQ(sys.getRobot("1")->isCommandsEmpty(), true);
 }
 
 TEST(ControlSystem, executeOneToAnotherSuccess)
@@ -96,5 +96,5 @@ TEST(ControlSystem, executeOneToAnotherSuccess)
 
     //assert
     ASSERT_EQ(res, nullptr);
-    ASSERT_NE(sys.getRobot("1")->isCommandsEmpty(), true);
+    ASSERT_EQ(sys.getRobot("1")->isCommandsEmpty(), true);
 }
