@@ -4,13 +4,14 @@ language:
   - cpp
 
 compiler:
-  - g++-10
+  - gcc
 
 addons:
   apt:
     sources:
       - ubuntu-toolchain-r-test
-
+    packages:
+      - g++-7
       
 
 before_install:
@@ -18,6 +19,8 @@ before_install:
 
 
 script:
+  - export CC=gcc-7
+  - export CXX=g++-7
   - mkdir build
   - cd build
   - cmake ..
