@@ -12,6 +12,7 @@ add_executable(
     TestExecutiveUnitHand.cpp
     TestExecutiveUnitSpray.cpp
     TestRobot.cpp
+    TestControlSystem.cpp
     )
 
 target_link_libraries(
