@@ -29,7 +29,7 @@ script:
 
 after_success:
   - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*"
-  - coveralls --exclude "lib"
+  - coveralls -E "lib/*"
 
 notifications:
   email: false
