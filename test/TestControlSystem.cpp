@@ -64,3 +64,37 @@ TEST(ControlSystem, eraseRobotFailed)
     ASSERT_EQ(eraseRes, false);
     ASSERT_NE(sys.getRobotMap().size(), 0);
 }
+
+TEST(ControlSystem, executeOnebyoneSuccess)
+{
+    //arrange
+    ControlSystem sys;
+    IRobot* newRobot = new Robot("1", new ExecutiveUnitSpray(), new MovingUnit(10,10,10), new SensorUnit(255));
+    newRobot->setPressureSensor(255);
+    newRobot->turnOn();
+
+    //act
+    sys.addRobot(newRobot);
+    string *res = sys.executeOnebyone();
+
+    //assert
+    ASSERT_EQ(res, nullptr);
+    ASSERT_NE(sys.getRobot("1")->isCommandsEmpty(), true);
+}
+
+TEST(ControlSystem, executeOneToAnotherSuccess)
+{
+    //arrange
+    ControlSystem sys;
+    IRobot* newRobot = new Robot("1", new ExecutiveUnitSpray(), new MovingUnit(10,10,10), new SensorUnit(255));
+    newRobot->setPressureSensor(255);
+    newRobot->turnOn();
+
+    //act
+    sys.addRobot(newRobot);
+    string *res = sys.executeOneToAnother();
+
+    //assert
+    ASSERT_EQ(res, nullptr);
+    ASSERT_NE(sys.getRobot("1")->isCommandsEmpty(), true);
+}

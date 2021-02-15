@@ -13,6 +13,10 @@ add_executable(
     TestExecutiveUnitSpray.cpp
     TestRobot.cpp
     TestControlSystem.cpp
+    TestActivateExecutiveUnit.cpp
+    TestDeactivateExecutiveUnit.cpp
+    TestMoveMovingUnit.cpp
+    TestSetPressureSensor.cpp
     )
 
 target_link_libraries(
