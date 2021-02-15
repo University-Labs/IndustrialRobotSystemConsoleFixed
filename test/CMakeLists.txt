@@ -17,6 +17,7 @@ add_executable(
     TestDeactivateExecutiveUnit.cpp
     TestMoveMovingUnit.cpp
     TestSetPressureSensor.cpp
+    TestSensorUnit.cpp
     )
 
 target_link_libraries(
