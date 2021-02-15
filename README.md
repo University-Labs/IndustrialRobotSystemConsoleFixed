@@ -1,11 +1,12 @@
-[![Build Status](https://travis-ci.org/bast/gtest-demo.svg?branch=master)](https://travis-ci.org/bast/gtest-demo/builds)
-[![Coverage Status](https://coveralls.io/repos/bast/gtest-demo/badge.png?branch=master)](https://coveralls.io/r/bast/gtest-demo?branch=master)
-[![License](https://img.shields.io/github/license/evster-coder/IndustrialRobotSystemConsoleFixed)]
+[![Build Status](https://www.travis-ci.com/evster-coder/IndustrialRobotSystemConsoleFixed.svg?branch=main)](https://www.travis-ci.com/github/evster-coder/IndustrialRobotSystemConsoleFixed)
+![License](https://img.shields.io/github/license/evster-coder/IndustrialRobotSystemConsoleFixed)
+[![Coverage Status](https://coveralls.io/repos/github/evster-coder/IndustrialRobotSystemConsoleFixed/badge.svg)](https://coveralls.io/github/evster-coder/IndustrialRobotSystemConsoleFixed)
 
 
 # IndustrialRobotSystem Console Fixed version
 
 It includes the source code of system for imitation Industrial Robot Manage framework (c++)
+[![Coverage Status](https://coveralls.io/repos/bast/gtest-demo/badge.png?branch=master)](https://coveralls.io/r/bast/gtest-demo?branch=master)
 
 ## How to build this demo
 
