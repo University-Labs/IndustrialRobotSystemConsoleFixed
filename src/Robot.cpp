@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Robot::Robot(string serialNumb, ExecutiveUnit* executiveU, MovingUnit *movingU, ISensorUnit* sensorDevice)
+Robot::Robot(const string &serialNumb, ExecutiveUnit* executiveU, MovingUnit *movingU, ISensorUnit* sensorDevice)
 {
 	this->serialNumber = serialNumb;
 	this->executiveDevice = executiveU;
@@ -116,7 +116,8 @@ string* Robot::executeOneCommand()
         //и ещё есть доступные команды
         if (commands.size() > 0)
         {
-            string* commandRequest = commands[0]->doWork();
+			delete[] commandRequest;
+            commandRequest = commands[0]->doWork();
             //выполняем одну команду, при неудаче завершаем работу
             if (commandRequest[0] == "0")
                 return commandRequest;

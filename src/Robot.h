@@ -48,7 +48,7 @@ public:
 	//executiveU - исполнительный орган
 	//movingU - объект - легковес устройства перемещения
 	//sensorDevice - сенсорный орган робота
-	Robot(string serialNumb, ExecutiveUnit* executiveU, MovingUnit* movingU, ISensorUnit* sensorDevice);
+	Robot(const string &serialNumb, ExecutiveUnit* executiveU, MovingUnit* movingU, ISensorUnit* sensorDevice);
 
     ~Robot();
 

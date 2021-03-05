@@ -62,7 +62,7 @@ string* ExecutiveUnitHand::activeUnit(int intensivity)
             return executeResult;
         }
         else
-            holdPressure = pressure * (intensivity / 100);
+            holdPressure = pressure * ((double)intensivity / 100);
 
         //Активация захвата
         isActive = true;

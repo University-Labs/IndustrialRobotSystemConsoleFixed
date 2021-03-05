@@ -5,11 +5,11 @@
 #include <sstream>
 using namespace std;
 
-SensorUnit::SensorUnit(double capacity)
+SensorUnit::SensorUnit(double capacity) : 
+		currentDetail(0, 0, 0, -1)
 {
 	temperatureValue = wetValue = pressureValue = radiationValue = lightValue = 0;
 	robotCapacity = capacity;
-    setDetail(Detail(0, 0, 0, -1));
 
 	srand(static_cast<unsigned int>(time(0)));
 }
@@ -69,7 +69,7 @@ double SensorUnit::getCapacity()
 	return robotCapacity;
 }
 
-void SensorUnit::setDetail(Detail det)
+void SensorUnit::setDetail(const Detail &det)
 {
 	this->currentDetail = det;
 }

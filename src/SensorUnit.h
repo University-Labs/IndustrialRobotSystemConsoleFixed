@@ -51,7 +51,7 @@ public:
 	void setRadiation(double radiation);
 
 	//установить параметры обрабатываемой детали
-	void setDetail(Detail det);
+	void setDetail(const Detail &det);
 
 	//установить параметры давления на деталь
 	void setPressure(double press);

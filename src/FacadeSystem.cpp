@@ -33,12 +33,14 @@ void FacadeSystem::eraseInstance()
 
 ExecutiveUnit* FacadeSystem::getExecutiveUnitHand()
 {
+	if(factory) delete factory;
 	factory = new EUnitHandCreator();
 	return factory->createUnit();
 }
 
 ExecutiveUnit* FacadeSystem::getExecutiveUnitSpray()
 {
+	if(factory) delete factory;
 	factory = new EUnitSprayCreator();
 	return factory->createUnit();
 }

@@ -38,7 +38,7 @@ public:
 
 
 	//установить параметры обрабатываемой детали
-	virtual void setDetail(Detail det) = 0;
+	virtual void setDetail(const Detail &det) = 0;
 
 	//установить заданную освещенность
 	virtual  void setLightly(double light) = 0;

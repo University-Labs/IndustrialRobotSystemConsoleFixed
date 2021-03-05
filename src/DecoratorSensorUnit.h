@@ -43,7 +43,7 @@ public:
 
 
 	//установить параметры обрабатываемой детали
-	void setDetail(Detail det);
+	void setDetail(const Detail &det);
 
 	//установить заданную освещенность
 	void setLightly(double light);

@@ -21,6 +21,7 @@ MovingUnit::MovingUnit(double xRange, double yRange, double zRange)
 
 MovingUnit::MovingUnit()
 {
+	isMove = false;
     xMoveRange = yMoveRange = zMoveRange = positionX = positionY = positionZ = 0;
 }
 

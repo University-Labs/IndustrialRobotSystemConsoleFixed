@@ -6,7 +6,8 @@ RobotSystem::RobotSystem(string serialNum, ExecutiveUnit* executiveU,
 	double xSystemCoord, double ySystemCoord, double zSystemCoord, MovingUnit* movingU, ISensorUnit* sensorU)
 {
 	//инициализация реального объекта
-	robot = new Robot(serialNum, executiveU, movingU, sensorU);
+	Robot* r = new Robot(serialNum, executiveU, movingU, sensorU);
+	robot = r;
 
 	this->xSystemCoord = xSystemCoord;
 	this->ySystemCoord = ySystemCoord;

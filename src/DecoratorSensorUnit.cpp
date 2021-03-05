@@ -52,7 +52,7 @@ bool DecoratorSensorUnit::scanDetail()
 	return item->scanDetail();
 }
 
-void DecoratorSensorUnit::setDetail(Detail det)
+void DecoratorSensorUnit::setDetail(const Detail &det)
 {
 	item->setDetail(det);
 }
